@@ -2,3 +2,5 @@ img/originais/
 .claude/
 .vercel/
 node_modules/
+
+.vercel
