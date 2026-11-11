@@ -11,8 +11,8 @@
     --color-text-light: #999999;
     --color-border: #e5e5e5;
     --color-card-bg: #1a1a1a;
-    --font-display: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: 'Jost', Futura, 'Trebuchet MS', sans-serif;
+    --font-body: 'Jost', Futura, 'Trebuchet MS', sans-serif;
     --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
     --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
     --shadow-hover: 0 8px 40px rgba(0, 0, 0, 0.12);
