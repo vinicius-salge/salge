@@ -7,6 +7,7 @@
     --color-bg: #ffffff;
     --color-bg-alt: #f5f5f5;
     --color-text: #1a1a1a;
+    --color-title: #3f3f3f;
     --color-text-muted: #666666;
     --color-text-light: #999999;
     --color-border: #e5e5e5;
@@ -75,7 +76,7 @@ a {
 }
 
 .header-logo a {
-    color: var(--color-text);
+    color: var(--color-title);
     transition: opacity 0.3s var(--transition-smooth);
 }
 
@@ -171,6 +172,7 @@ a {
     font-weight: 700;
     letter-spacing: 0.05em;
     margin-bottom: 0.75rem;
+    color: var(--color-title);
 }
 
 .page-description {
@@ -469,7 +471,7 @@ a {
    ======================================== */
 
 .footer {
-    padding: 4rem 2rem;
+    padding: 2.25rem 2rem;
     background-color: var(--color-text);
     color: white;
 }
@@ -477,15 +479,15 @@ a {
 .footer-links {
     display: flex;
     justify-content: center;
-    gap: 3rem;
-    margin-bottom: 2.5rem;
+    gap: 2rem;
+    margin-bottom: 1.25rem;
     flex-wrap: wrap;
 }
 
 .footer-link {
     font-family: var(--font-display);
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 0.95rem;
+    font-weight: 500;
     color: white;
     opacity: 0.8;
     transition: opacity 0.3s var(--transition-smooth);
@@ -606,7 +608,7 @@ a {
     }
 
     .footer-link {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -678,7 +680,7 @@ a {
     }
 
     .footer {
-        padding: 3rem 1rem;
+        padding: 1.75rem 1rem;
     }
 
     .footer-links {
@@ -755,6 +757,7 @@ button:focus-visible {
     font-weight: 700;
     letter-spacing: 0.05em;
     margin-bottom: 2rem;
+    color: var(--color-title);
 }
 
 .about-text {
